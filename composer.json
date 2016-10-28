@@ -1,6 +1,6 @@
 {
     "require": {
-        "cebe/markdown": "^1.1.",
+        "cebe/markdown": "^1.1",
         "nette/finder": "^2.4"
     }
 }
