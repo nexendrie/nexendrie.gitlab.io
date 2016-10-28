@@ -1,0 +1,14 @@
+image: shipito/php:7.0
+
+pages:
+  stage: deploy
+  environment: pages
+  before_script:
+  - composer install --prefer-dist
+  script:
+  - php build.php
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
