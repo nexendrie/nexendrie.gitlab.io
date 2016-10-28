@@ -7,8 +7,11 @@ pages:
   - composer install --prefer-dist
   script:
   - php build.php
+  cache:
+      paths:
+      - vendor
   artifacts:
-    paths:
-    - public
+      paths:
+      - public
   only:
   - master
