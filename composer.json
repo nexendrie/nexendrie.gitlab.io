@@ -1,6 +1,5 @@
 {
     "require": {
-        "cebe/markdown": "^1.1",
-        "nette/finder": "^2.4"
+        "nexendrie/site-generator": "1.0.x-dev"
     }
 }
