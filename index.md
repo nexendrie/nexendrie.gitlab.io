@@ -24,3 +24,4 @@ Our packages
 - book-component: https://nexendrie.gitlab.io/book-component
 - rss: https://nexendrie.gitlab.io/rss
 - translation: https://nexendrie.gitlab.io/translation
+- site-generator: https://nexendrie.gitlab.io/site-generator
