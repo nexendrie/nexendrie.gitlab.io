@@ -68,6 +68,53 @@
             "time": "2016-09-14 20:40:20"
         },
         {
+            "name": "nette/command-line",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/command-line.git",
+                "reference": "6ed25a71f5af6ba32eaec7d9d3c7b6f0b8781b87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/command-line/zipball/6ed25a71f5af6ba32eaec7d9d3c7b6f0b8781b87",
+                "reference": "6ed25a71f5af6ba32eaec7d9d3c7b6f0b8781b87",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.4"
+            },
+            "require-dev": {
+                "nette/tester": "~2.0",
+                "tracy/tracy": "^2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "Nette Command Line Tools",
+            "homepage": "https://nette.org",
+            "time": "2016-06-17 17:24:32"
+        },
+        {
             "name": "nette/finder",
             "version": "v2.4.0",
             "source": {
@@ -245,16 +292,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nexendrie/site-generator.git",
-                "reference": "601150f8f33b4b7e13ee887ea55558bccf84cf19"
+                "reference": "d0f5d604bc690cb6c2559252049077d9f857b933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/601150f8f33b4b7e13ee887ea55558bccf84cf19",
-                "reference": "601150f8f33b4b7e13ee887ea55558bccf84cf19",
+                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/d0f5d604bc690cb6c2559252049077d9f857b933",
+                "reference": "d0f5d604bc690cb6c2559252049077d9f857b933",
                 "shasum": ""
             },
             "require": {
                 "cebe/markdown": "^1.1",
+                "nette/command-line": "^1.1",
                 "nette/finder": "^2.4",
                 "nette/neon": "^2.4"
             },
@@ -300,7 +348,7 @@
                 "static",
                 "website"
             ],
-            "time": "2016-11-01 17:33:02"
+            "time": "2016-11-05 06:39:00"
         }
     ],
     "packages-dev": [],

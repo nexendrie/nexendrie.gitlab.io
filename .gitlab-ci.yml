@@ -5,6 +5,7 @@ pages:
   environment: pages
   before_script:
   - composer install --prefer-dist
+  - mkdir public
   script:
   - ./vendor/bin/generate-site
   cache:
