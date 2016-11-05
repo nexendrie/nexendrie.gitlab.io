@@ -11,7 +11,7 @@ Along the way, some reusable parts were separated from the main repository into 
 Repositories
 ------------
 
-Most of the project's repositories are hosted on both GitHub: https://github.com/nexendrie and GitLab: https://gitlab.com/nexendrie/ . Among the exceptions are the main project (which is a private repository on GitLab at the moment) and our common resources: https://gitlab.com/nexendrie/resources .
+Most of the project's repositories are hosted on both GitHub: https://github.com/nexendrie and GitLab: https://gitlab.com/nexendrie/ . One of the exceptions is the main project (which is a private repository on GitLab at the moment).
 
 Used stuff
 ------
