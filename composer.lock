@@ -292,26 +292,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nexendrie/site-generator.git",
-                "reference": "d0f5d604bc690cb6c2559252049077d9f857b933"
+                "reference": "cbf37b54be2374b51c1c1305aa0d78a805112850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/d0f5d604bc690cb6c2559252049077d9f857b933",
-                "reference": "d0f5d604bc690cb6c2559252049077d9f857b933",
+                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/cbf37b54be2374b51c1c1305aa0d78a805112850",
+                "reference": "cbf37b54be2374b51c1c1305aa0d78a805112850",
                 "shasum": ""
             },
             "require": {
                 "cebe/markdown": "^1.1",
                 "nette/command-line": "^1.1",
                 "nette/finder": "^2.4",
-                "nette/neon": "^2.4"
+                "nette/neon": "^2.4",
+                "nette/utils": "^2.4",
+                "php": ">=5.6.0"
             },
             "require-dev": {
-                "jakub-onderka/php-console-highlighter": "^0.3.2",
-                "jakub-onderka/php-parallel-lint": "^0.9.2",
-                "mrtnzlml/testbench": "^2.4",
-                "nette/tester": "2.0.x-dev as v1.7",
-                "squizlabs/php_codesniffer": "^2.7"
+                "nette/tester": "dev-master",
+                "nexendrie/code-quality": "dev-master"
             },
             "bin": [
                 "src/generate-site"
@@ -339,7 +338,7 @@
                 }
             ],
             "description": "Static site generator which turns Markdown into HTML",
-            "homepage": "https://nexendrie.gitlab.io/site-generator",
+            "homepage": "https://nexendrie.gitlab.io",
             "keywords": [
                 "generator",
                 "html",
@@ -348,7 +347,7 @@
                 "static",
                 "website"
             ],
-            "time": "2016-11-05 06:39:00"
+            "time": "2016-11-22 13:38:02"
         }
     ],
     "packages-dev": [],
