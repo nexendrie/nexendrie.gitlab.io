@@ -11,12 +11,12 @@ Along the way, some reusable parts were separated from the main repository into 
 Repositories
 ------------
 
-Most of the project's repositories are hosted on both GitHub: https://github.com/nexendrie and GitLab: https://gitlab.com/nexendrie/ . Among the exceptions are the main project (which is a private repository on GitLab at the moment) and sources for this site.
+Most of the project's repositories are hosted on both GitHub: https://github.com/nexendrie and GitLab: https://gitlab.com/nexendrie/. Among the exceptions are the main project (which is a private repository on GitLab at the moment) and sources for this site. All development takes place on GitLab (where issues and pull/merge should be created) but Composer cannot handle it so well. For that reason it fetches our packages from GitHub.
 
 Used stuff
 ------
 
-Our primary programming language is PHP. We use version 7.0 but most of our packages also run on 5.6. Our projects are powered by Nette Framework: https://nette.org/en/ . We heavily test our code with Nette Tester (improved by testbench from Martin Zlámal).
+Our primary programming language is PHP. We use version 7.1. Our projects are powered by Nette Framework: https://nette.org/en/. We heavily test our code with Nette Tester (improved by testbench from Martin Zlámal).
 
 Our packages
 --------
