@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "484be025280efb27cff83a46762121fd",
     "content-hash": "321595be936ebd2556e2bcf71c89e131",
     "packages": [
         {
@@ -65,20 +64,20 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-09-14 20:40:20"
+            "time": "2016-09-14T20:40:20+00:00"
         },
         {
             "name": "nette/command-line",
-            "version": "v1.1",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/command-line.git",
-                "reference": "6ed25a71f5af6ba32eaec7d9d3c7b6f0b8781b87"
+                "reference": "52e19a4fc581ec6565c683c760f6f9c73edff5e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/command-line/zipball/6ed25a71f5af6ba32eaec7d9d3c7b6f0b8781b87",
-                "reference": "6ed25a71f5af6ba32eaec7d9d3c7b6f0b8781b87",
+                "url": "https://api.github.com/repos/nette/command-line/zipball/52e19a4fc581ec6565c683c760f6f9c73edff5e8",
+                "reference": "52e19a4fc581ec6565c683c760f6f9c73edff5e8",
                 "shasum": ""
             },
             "require": {
@@ -112,7 +111,7 @@
             ],
             "description": "Nette Command Line Tools",
             "homepage": "https://nette.org",
-            "time": "2016-06-17 17:24:32"
+            "time": "2017-02-07T17:51:07+00:00"
         },
         {
             "name": "nette/finder",
@@ -168,24 +167,25 @@
             ],
             "description": "Nette Finder: Files Searching",
             "homepage": "https://nette.org",
-            "time": "2016-05-17 15:49:06"
+            "time": "2016-05-17T15:49:06+00:00"
         },
         {
             "name": "nette/neon",
-            "version": "v2.4.0",
+            "version": "v2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/neon.git",
-                "reference": "c40c63f2afa4196844ac40d9d2a2cfb313f76906"
+                "reference": "1a78ff64b1e161ebccc03bdf9366450a69365f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/neon/zipball/c40c63f2afa4196844ac40d9d2a2cfb313f76906",
-                "reference": "c40c63f2afa4196844ac40d9d2a2cfb313f76906",
+                "url": "https://api.github.com/repos/nette/neon/zipball/1a78ff64b1e161ebccc03bdf9366450a69365f5b",
+                "reference": "1a78ff64b1e161ebccc03bdf9366450a69365f5b",
                 "shasum": ""
             },
             "require": {
                 "ext-iconv": "*",
+                "ext-json": "*",
                 "php": ">=5.6.0"
             },
             "require-dev": {
@@ -221,20 +221,20 @@
             ],
             "description": "Nette NEON: parser & generator for Nette Object Notation",
             "homepage": "http://ne-on.org",
-            "time": "2016-06-25 13:59:48"
+            "time": "2017-01-13T08:00:19+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v2.4.1",
+            "version": "v2.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "a2c86f48afab41e4a68bd161aab6b14e2458ab8a"
+                "reference": "28ad4e2a6dcf143c23bde969a825f10a5d513602"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/a2c86f48afab41e4a68bd161aab6b14e2458ab8a",
-                "reference": "a2c86f48afab41e4a68bd161aab6b14e2458ab8a",
+                "url": "https://api.github.com/repos/nette/utils/zipball/28ad4e2a6dcf143c23bde969a825f10a5d513602",
+                "reference": "28ad4e2a6dcf143c23bde969a825f10a5d513602",
                 "shasum": ""
             },
             "require": {
@@ -253,7 +253,8 @@
                 "ext-intl": "for script transliteration in Strings::webalize() and toAscii()",
                 "ext-json": "to use Nette\\Utils\\Json",
                 "ext-mbstring": "to use Strings::lower() etc...",
-                "ext-xml": "to use Strings::length() etc. when mbstring is not available"
+                "ext-xml": "to use Strings::length() etc. when mbstring is not available",
+                "https://nette.org/donate": "\u001b[1;37;42m Please consider supporting Nette via a donation \u001b[0m"
             },
             "type": "library",
             "extra": {
@@ -284,7 +285,7 @@
             ],
             "description": "Nette Utility Classes",
             "homepage": "https://nette.org",
-            "time": "2016-09-28 17:57:14"
+            "time": "2017-03-29T16:55:54+00:00"
         },
         {
             "name": "nexendrie/site-generator",
@@ -292,12 +293,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nexendrie/site-generator.git",
-                "reference": "cbf37b54be2374b51c1c1305aa0d78a805112850"
+                "reference": "1121597cec020aa67b8f808ba7ab7b46ef42da19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/cbf37b54be2374b51c1c1305aa0d78a805112850",
-                "reference": "cbf37b54be2374b51c1c1305aa0d78a805112850",
+                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/1121597cec020aa67b8f808ba7ab7b46ef42da19",
+                "reference": "1121597cec020aa67b8f808ba7ab7b46ef42da19",
                 "shasum": ""
             },
             "require": {
@@ -306,7 +307,7 @@
                 "nette/finder": "^2.4",
                 "nette/neon": "^2.4",
                 "nette/utils": "^2.4",
-                "php": ">=5.6.0"
+                "php": ">=7.1.0"
             },
             "require-dev": {
                 "nette/tester": "dev-master",
@@ -347,7 +348,7 @@
                 "static",
                 "website"
             ],
-            "time": "2016-11-22 13:38:02"
+            "time": "2017-04-03 11:00:05"
         }
     ],
     "packages-dev": [],
