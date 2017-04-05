@@ -1,4 +1,4 @@
-image: shipito/php:7.0
+image: chialab/php:7.1
 
 pages:
   stage: deploy
