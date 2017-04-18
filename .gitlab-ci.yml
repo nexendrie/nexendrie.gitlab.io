@@ -1,4 +1,4 @@
-image: chialab/php:7.1
+image: nexendrie/php
 
 pages:
   stage: deploy
