@@ -3,10 +3,8 @@ image: nexendrie/php
 pages:
   stage: deploy
   environment: pages
-  before_script:
-  - composer install --prefer-dist
   script:
-  - ./vendor/bin/generate-site
+  - phing generate
   cache:
       paths:
       - vendor
