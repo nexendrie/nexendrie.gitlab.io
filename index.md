@@ -16,7 +16,7 @@ Most of the project's repositories are hosted on both GitHub: https://github.com
 Used stuff
 ------
 
-Our primary programming language is PHP. We use version 7.1. Our projects are powered by Nette Framework: https://nette.org/en/. We heavily test our code with Nette Tester (improved by testbench from Martin Zlámal).
+Our primary programming language is PHP. We use version 7.1. Our projects are powered by Nette Framework: https://nette.org/en/. We heavily test our code with Nette Tester (improved by testbench from Martin Zlámal). We also run codesniffer, parallel lint and phpstan on our codebase in CI to ensure its quality.
 
 Our packages
 --------
