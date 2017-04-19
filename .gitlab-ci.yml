@@ -1,5 +1,9 @@
 image: nexendrie/php
 
+cache:
+  paths:
+  - vendor/
+
 pages:
   stage: deploy
   environment: pages
