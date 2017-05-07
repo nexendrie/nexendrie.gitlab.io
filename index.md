@@ -25,6 +25,7 @@ Our packages
 - rss: https://nexendrie.gitlab.io/rss
 - translation: https://nexendrie.gitlab.io/translation
 - site-generator: https://nexendrie.gitlab.io/site-generator
+- menu: https://nexendrie.gitlab.io/menu/
 
 Our docker images
 -----------------
