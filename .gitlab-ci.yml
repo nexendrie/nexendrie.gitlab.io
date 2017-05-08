@@ -6,7 +6,9 @@ cache:
 
 pages:
   stage: deploy
-  environment: pages
+  environment:
+      name: pages
+      url: https://nexendrie.gitlab.io
   script:
   - phing generate
   cache:
