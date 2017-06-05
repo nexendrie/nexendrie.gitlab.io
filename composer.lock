@@ -292,12 +292,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nexendrie/site-generator.git",
-                "reference": "764a450c660beb8fff97c08360f7157a49494253"
+                "reference": "790dc5cf472ab7366fbc8c766db64a67d6271c20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/764a450c660beb8fff97c08360f7157a49494253",
-                "reference": "764a450c660beb8fff97c08360f7157a49494253",
+                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/790dc5cf472ab7366fbc8c766db64a67d6271c20",
+                "reference": "790dc5cf472ab7366fbc8c766db64a67d6271c20",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "static",
                 "website"
             ],
-            "time": "2017-04-20 14:58:09"
+            "time": "2017-05-20 08:20:00"
         }
     ],
     "packages-dev": [],
