@@ -291,13 +291,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nexendrie/site-generator.git",
-                "reference": "790dc5cf472ab7366fbc8c766db64a67d6271c20"
+                "url": "https://gitlab.com/nexendrie/site-generator.git",
+                "reference": "6341a289970d98b9e6bceb7e9bc44d9e00111415"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nexendrie/site-generator/zipball/790dc5cf472ab7366fbc8c766db64a67d6271c20",
-                "reference": "790dc5cf472ab7366fbc8c766db64a67d6271c20",
+                "url": "https://gitlab.com/api/v3/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=6341a289970d98b9e6bceb7e9bc44d9e00111415",
+                "reference": "6341a289970d98b9e6bceb7e9bc44d9e00111415",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,6 @@
                 "php": ">=7.1.0"
             },
             "require-dev": {
-                "nette/tester": "dev-master",
                 "nexendrie/code-quality": "dev-master"
             },
             "bin": [
@@ -347,7 +346,7 @@
                 "static",
                 "website"
             ],
-            "time": "2017-05-20 08:20:00"
+            "time": "2017-06-10 13:37:18"
         }
     ],
     "packages-dev": [],
