@@ -11,7 +11,7 @@ Along the way, some reusable parts were separated from the main repository into 
 Repositories
 ------------
 
-Most of the project's repositories are hosted on both GitHub: https://github.com/nexendrie and GitLab: https://gitlab.com/nexendrie/. Among the exceptions are our Docker images and sources for this site. All development takes place on GitLab (where issues and pull/merge should be created). The repositories on GitHub are just mirrors.
+Almost all of the project's repositories are hosted on both GitHub: https://github.com/nexendrie and GitLab: https://gitlab.com/nexendrie/. The only exception is sources for this site. All development takes place on GitLab (where issues and pull/merge should be created). The repositories on GitHub are just mirrors.
 
 Used stuff
 ----------
