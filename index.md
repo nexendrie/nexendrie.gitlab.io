@@ -18,6 +18,11 @@ Used stuff
 
 Our primary programming language is PHP. We use version 7.1, our code is ready for 7.2. Our projects are powered by Nette Framework: https://nette.org/en/. We heavily test our code with Nette Tester (improved by testbench by Martin Zlámal). We also run codesniffer, parallel lint and phpstan on our codebase in CI to ensure its quality.
 
+Contributing
+------------
+
+Nexendrie Project welcomes contributions. Just be sure to read our [guide](contributing.md) before making a contribution.
+
 Our packages
 --------
 
