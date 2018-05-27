@@ -6,12 +6,12 @@ So you wish to make a contribution to Nexendrie Project? Great, just read this d
 Where to contribute
 -------------------
 
-All contributions should be made on [GitLab] (https://gitlab.com/nexendrie). Our packages are also on [GitHub](https://github.com/nexendrie) but these repositories are just mirrors.
+All contributions should be made on [GitLab](https://gitlab.com/nexendrie). Our packages are also on [GitHub](https://github.com/nexendrie) but these repositories are just mirrors.
 
 Coding standards
 ----------------
 
-If you are writting any code for the project, be sure to follow our coding standards. Its definition for code sniffer is a part of [nexendrie/code-quality] (https://gitlab.com/nexendrie/code-quality/blob/master/ruleset.xml) package.
+If you are writting any code for the project, be sure to follow our coding standards. Its definition for code sniffer is a part of [nexendrie/code-quality](https://gitlab.com/nexendrie/code-quality/blob/master/ruleset.xml) package.
 
 Test the code
 -------------
@@ -42,4 +42,4 @@ We all are humans thus prone to errors. Do not hesitate to point them out and/or
 
 * New features
 
-Our packages are not completed (well, most of them at least). There are some things we would like to add, just check [issues] (https://gitlab.com/groups/nexendrie/issues) on GitLab. If there is something missing from your point of view, open a new issue. But be aware that we do not have to share your opinion so sometimes you will have to convince us.
+Our packages are not completed (well, most of them at least). There are some things we would like to add, just check [issues](https://gitlab.com/groups/nexendrie/issues) on GitLab. If there is something missing from your point of view, open a new issue. But be aware that we do not have to share your opinion so sometimes you will have to convince us.
