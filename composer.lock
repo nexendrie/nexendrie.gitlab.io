@@ -68,26 +68,31 @@
         },
         {
             "name": "nette/command-line",
-            "version": "v1.3",
+            "version": "v1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/command-line.git",
-                "reference": "d6b0a5b03d8ca44187576e74419a6f35d70f4cd3"
+                "reference": "57f3a0123cae9e8e4102bc4863a23b3d1662c013"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/command-line/zipball/d6b0a5b03d8ca44187576e74419a6f35d70f4cd3",
-                "reference": "d6b0a5b03d8ca44187576e74419a6f35d70f4cd3",
+                "url": "https://api.github.com/repos/nette/command-line/zipball/57f3a0123cae9e8e4102bc4863a23b3d1662c013",
+                "reference": "57f3a0123cae9e8e4102bc4863a23b3d1662c013",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.4"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "nette/tester": "~2.0",
+                "nette/tester": "^2.0",
                 "tracy/tracy": "^2.3"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -116,37 +121,37 @@
                 "cmd-line",
                 "nette"
             ],
-            "time": "2017-07-11T01:04:11+00:00"
+            "time": "2019-02-06T00:21:25+00:00"
         },
         {
             "name": "nette/finder",
-            "version": "v2.4.2",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/finder.git",
-                "reference": "ee951a656cb8ac622e5dd33474a01fd2470505a0"
+                "reference": "6be1b83ea68ac558aff189d640abe242e0306fe2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/finder/zipball/ee951a656cb8ac622e5dd33474a01fd2470505a0",
-                "reference": "ee951a656cb8ac622e5dd33474a01fd2470505a0",
+                "url": "https://api.github.com/repos/nette/finder/zipball/6be1b83ea68ac558aff189d640abe242e0306fe2",
+                "reference": "6be1b83ea68ac558aff189d640abe242e0306fe2",
                 "shasum": ""
             },
             "require": {
-                "nette/utils": "~2.4",
-                "php": ">=5.6.0"
+                "nette/utils": "^2.4 || ~3.0.0",
+                "php": ">=7.1"
             },
             "conflict": {
                 "nette/nette": "<2.2"
             },
             "require-dev": {
-                "nette/tester": "~2.0",
+                "nette/tester": "^2.0",
                 "tracy/tracy": "^2.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -170,7 +175,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🔍 Nette Finder: find files and directories with an intuitive API.",
+            "description": "? Nette Finder: find files and directories with an intuitive API.",
             "homepage": "https://nette.org",
             "keywords": [
                 "filesystem",
@@ -178,7 +183,7 @@
                 "iterator",
                 "nette"
             ],
-            "time": "2018-06-28T11:49:23+00:00"
+            "time": "2019-02-28T18:13:25+00:00"
         },
         {
             "name": "nette/neon",
@@ -329,21 +334,21 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/nexendrie/site-generator.git",
-                "reference": "b32213180155f1faea64f050b4e898c195fcdf0d"
+                "reference": "39f4007084f6f71807507adc692d6cd410635ccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=b32213180155f1faea64f050b4e898c195fcdf0d",
-                "reference": "b32213180155f1faea64f050b4e898c195fcdf0d",
+                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=39f4007084f6f71807507adc692d6cd410635ccb",
+                "reference": "39f4007084f6f71807507adc692d6cd410635ccb",
                 "shasum": ""
             },
             "require": {
                 "cebe/markdown": "^1.2",
                 "ext-dom": "*",
-                "nette/command-line": "^1.1",
+                "nette/command-line": "^1.4",
                 "nette/finder": "^2.4",
-                "nette/neon": "^2.4",
-                "nette/utils": "^2.4",
+                "nette/neon": "^2.4 || ^3.0",
+                "nette/utils": "^2.4 || ^3.0",
                 "php": ">=7.2.0",
                 "symfony/options-resolver": "^4.0"
             },
@@ -385,20 +390,20 @@
                 "static",
                 "website"
             ],
-            "time": "2019-02-04T12:01:23+00:00"
+            "time": "2019-05-01T12:19:41+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.2.3",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "831b272963a8aa5a0613a1a7f013322d8161bbbb"
+                "reference": "fd4a5f27b7cd085b489247b9890ebca9f3e10044"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/831b272963a8aa5a0613a1a7f013322d8161bbbb",
-                "reference": "831b272963a8aa5a0613a1a7f013322d8161bbbb",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/fd4a5f27b7cd085b489247b9890ebca9f3e10044",
+                "reference": "fd4a5f27b7cd085b489247b9890ebca9f3e10044",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +444,7 @@
                 "configuration",
                 "options"
             ],
-            "time": "2019-01-16T21:31:25+00:00"
+            "time": "2019-04-10T16:20:36+00:00"
         }
     ],
     "packages-dev": [],
