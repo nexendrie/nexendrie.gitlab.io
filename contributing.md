@@ -36,7 +36,7 @@ Things to work on
 
 * Documentation
 
-Some of our packages are missing documentation, documentation of some packages is outdated/could use better wording. Any help is welcome.
+Documentation of some packages is outdated/could use better wording. Any help is welcome.
 
 * Bugs
 
@@ -44,4 +44,4 @@ We all are humans thus prone to errors. Do not hesitate to point them out and/or
 
 * New features
 
-Our packages are not completed (well, most of them at least). There is a list of things we would like to add, just check [issues](https://gitlab.com/groups/nexendrie/issues) on GitLab. If there is something missing from your point of view, open a new issue. But be aware that we do not have to share your opinion so sometimes you will have to convince us.
+Some of our packages are not done feature wise yet. There is a list of things we would like to add, just check [issues](https://gitlab.com/groups/nexendrie/issues) on GitLab. If there is something missing from your point of view, open a new issue. But be aware that we do not have to share your opinion so sometimes you will have to convince us.
