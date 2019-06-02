@@ -11,7 +11,7 @@ All contributions should be made on [GitLab](https://gitlab.com/nexendrie). Our 
 Coding standards
 ----------------
 
-If you are writting any code for the project, be sure to follow our coding standards. Its definition for code sniffer is a part of [nexendrie/code-quality](https://gitlab.com/nexendrie/code-quality/blob/master/ruleset.xml) package.
+If you are writting any code for the project, be sure to follow our coding standards. Its definition for code sniffer is a part of [nexendrie/code-quality](https://gitlab.com/nexendrie/code-quality/blob/master/ruleset.xml) package, though it is not complete yet.
 
 Test the code
 -------------
