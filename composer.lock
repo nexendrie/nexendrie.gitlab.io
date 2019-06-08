@@ -328,12 +328,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/nexendrie/site-generator.git",
-                "reference": "b368249e701092ea277b67274f917262668f1c48"
+                "reference": "9ef7ddeb1598ca189e6833c008f51fc6e910ca96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=b368249e701092ea277b67274f917262668f1c48",
-                "reference": "b368249e701092ea277b67274f917262668f1c48",
+                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=9ef7ddeb1598ca189e6833c008f51fc6e910ca96",
+                "reference": "9ef7ddeb1598ca189e6833c008f51fc6e910ca96",
                 "shasum": ""
             },
             "require": {
@@ -385,11 +385,11 @@
                 "static",
                 "website"
             ],
-            "time": "2019-05-25T13:11:18+00:00"
+            "time": "2019-06-08T08:12:55+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.3.0",
+            "version": "v4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
