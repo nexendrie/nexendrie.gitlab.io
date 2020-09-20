@@ -25,7 +25,7 @@ Other rules
 
 * Keep the history clean. No merge commits in Merge request. Rebase your branch and amend commits when appropriate.
 
-* Add an entry for your feature/change to CHANGELOG (if you think that it is important enough).
+* Add an entry for your feature/change to CHANGELOG.md (if you think that it is important enough).
 
 * Keep the discussion civil. You do not have to extra polite, just use you best judgment.
 
@@ -44,4 +44,4 @@ We all are humans thus prone to errors. Do not hesitate to point them out and/or
 
 * New features
 
-Some of our packages are not done feature wise yet. There is a list of things we would like to add, just check [issues](https://gitlab.com/groups/nexendrie/issues) on GitLab. If there is something missing from your point of view, open a new issue. But be aware that we do not have to share your opinion so sometimes you will have to convince us.
+Some of our packages are not done feature wise yet. There is a list of things we would like to add, just check [issues](https://gitlab.com/groups/nexendrie/-/issues) on GitLab. If there is something missing from your point of view, open a new issue. But be aware that we do not have to share your opinion so sometimes you will have to convince us.
