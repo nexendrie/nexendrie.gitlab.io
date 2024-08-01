@@ -6,7 +6,7 @@ About
 
 The Nexendrie Project was started in April 2015 by Jakub Konečný. The ultimate goal is to create a browser-based medieval ages/renaissance fantasy game. Currently it is in open beta stage. [Homepage](https://www.nexendrie.cz)
 
-Along the way, some reusable parts were separated from the main repository into standalone packages (which can be downloaded via Composer). We post about new releases on [Twitter](https://twitter.com/nexendrie).
+Along the way, some reusable parts were separated from the main repository into standalone packages (which can be downloaded via Composer). We post about new releases on [X (formerly Twitter)](https://x.com/nexendrie).
 
 Repositories
 ------------
