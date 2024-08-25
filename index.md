@@ -32,6 +32,7 @@ Our packages
 - site-generator: https://nexendrie.gitlab.io/site-generator
 - menu: https://nexendrie.gitlab.io/menu
 - utils: https://nexendrie.gitlab.io/utils
+- event-calendar: https://nexendrie.gitlab.io/EventCalendar/
 
 Our docker images
 -----------------
