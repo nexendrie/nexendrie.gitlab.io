@@ -16,7 +16,7 @@ All of the project's repositories are hosted on both [GitHub](https://github.com
 Used stuff
 ----------
 
-Our primary programming language is PHP. We use version 7.4, working on moving to 8.0/8.1. Our projects are powered by Nette Framework: https://nette.org. We heavily test our code with Nette Tester (improved by testbench by Martin Zlámal). We also run codesniffer, parallel lint and phpstan on our codebase in CI to ensure its quality.
+Our primary programming language is PHP. We use version 7.4, working on moving to 8.0/8.1. Our projects are powered by [Nette Framework](https://nette.org). We heavily test our code with Nette Tester (improved by testbench by Martin Zlámal). We also run codesniffer, parallel lint and phpstan on our codebase in CI to ensure its quality.
 
 Contributing
 ------------
@@ -26,16 +26,16 @@ Nexendrie Project welcomes contributions. Just be sure to read our [guide](contr
 Our packages
 --------
 
-- book-component: https://nexendrie.gitlab.io/book-component
-- rss: https://nexendrie.gitlab.io/rss
-- translation: https://nexendrie.gitlab.io/translation
-- site-generator: https://nexendrie.gitlab.io/site-generator
-- menu: https://nexendrie.gitlab.io/menu
-- utils: https://nexendrie.gitlab.io/utils
-- event-calendar: https://nexendrie.gitlab.io/EventCalendar/
+- [book-component](https://nexendrie.gitlab.io/book-component)
+- [rss](https://nexendrie.gitlab.io/rss)
+- [translation](https://nexendrie.gitlab.io/translation)
+- [site-generator](https://nexendrie.gitlab.io/site-generator)
+- [menu](https://nexendrie.gitlab.io/menu)
+- [utils](https://nexendrie.gitlab.io/utils)
+- [event-calendar](https://nexendrie.gitlab.io/EventCalendar)
 
 Our docker images
 -----------------
 
-- PHP: https://nexendrie.gitlab.io/docker-php
-- NodeJS: https://nexendrie.gitlab.io/docker-nodejs
+- [PHP](https://nexendrie.gitlab.io/docker-php)
+- [NodeJS](https://nexendrie.gitlab.io/docker-nodejs)
