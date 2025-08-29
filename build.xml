@@ -10,6 +10,8 @@
     <exec executable="vendor/bin/generate-site" logoutput="true" passthru="true" checkreturn="true">
       <arg value="--ignoreFile"/>
       <arg value="README.md"/>
+      <arg value="--ignoreFile"/>
+      <arg value="LICENSE.md"/>
     </exec>
   </target>
 </project>
