@@ -35,13 +35,11 @@ If you writing code to the project, please keep the following rules in mind.
 
 ### Coding standards
 
-Be sure to follow our coding standard. Its definition for code sniffer is a part of [nexendrie/code-quality](https://gitlab.com/nexendrie/code-quality/blob/master/ruleset.xml) package, though it is not complete yet.
-
-We used to have a custom coding standard but we are switching to a PSR-12 based one. All packages will eventually use it but until that happens, code for some packages will still have to follow the previous standard.
+The basis of our coding standard is [PSR-12](https://www.php-fig.org/psr/psr-12/) plus we have some additional rules. Its definition for code sniffer is a part of [nexendrie/code-quality](https://gitlab.com/nexendrie/code-quality/blob/master/phpcs.xml) package, though it is not complete yet.
 
 ### Test the code
 
-Do not forget to write tests for new features, we do not want untested code in the codebase. Also all tests for the merge request must pass. That includes syntax checks, compliance with coding standards, static analysis and unit/integration tests. We use parallel lint, codesniffer, PHPStan and Nette Tester + testbench respectively for these tasks. All these tools are run in CI but you can (and should) run them also on your computer before submitting a merge request.
+Do not forget to write tests for new features, we do not want untested code in the codebase. Also all tests for the merge request must pass. That includes syntax checks, compliance with coding standards, static analysis and unit/integration tests. We use parallel lint, codesniffer, PHPStan and Nette Tester + testbench (or PHPUnit in one forked package) respectively for these tasks. All these tools are run in CI but you can (and should) run them also on your computer before submitting a merge request. To make running the tools easier (and with same configuration), we use [phing](https://www.phing.info/), the target to run all the tools is called "test" in all packages.
 
 ### Other rules
 
@@ -52,3 +50,5 @@ Do not forget to write tests for new features, we do not want untested code in t
 * Add an entry for your feature/change to CHANGELOG.md (if you think that it is important enough). If it should be in release notes of next version, write about it also to RELEASE_NOTES.
 
 * Stay in touch with us. After you have opened your issue/merge request, we may need additional input from you. If you keep us waiting for too long, we may lose interest and just close the thing.
+
+* No AI/LLM generated code. Not only such code is often bad/wrong, it also comes with legal and ethical issues that we do not want to deal with. We reserve the right to refuse such contributions (and remove them after accepting them if we find out later).
