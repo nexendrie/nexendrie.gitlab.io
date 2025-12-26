@@ -33,6 +33,7 @@ Our packages
 - [menu](https://nexendrie.gitlab.io/menu)
 - [utils](https://nexendrie.gitlab.io/utils)
 - [event-calendar](https://nexendrie.gitlab.io/EventCalendar)
+- rest-route
 
 Our docker images
 -----------------
