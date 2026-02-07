@@ -34,6 +34,7 @@ Our packages
 - [utils](https://nexendrie.gitlab.io/utils)
 - [event-calendar](https://nexendrie.gitlab.io/EventCalendar)
 - rest-route
+- [code-quality](https://nexendrie.gitlab.io/code-quality)
 
 Our docker images
 -----------------
