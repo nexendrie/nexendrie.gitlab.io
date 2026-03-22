@@ -31,7 +31,7 @@ Some of our packages are not done feature wise yet. There is a list of things we
 Code contributions
 ------------------
 
-If you writing code to the project, please keep the following rules in mind.
+If you are writing code to the project, please keep the following rules in mind.
 
 ### Coding standards
 
