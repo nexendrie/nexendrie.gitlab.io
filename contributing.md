@@ -1,7 +1,7 @@
 Contributing to Nexendrie Project
 ==================================
 
-So you wish to make a contribution to Nexendrie Project? That is great, we welcome contributions, just read this document beforehand.
+So you want to contribute to Nexendrie Project? That is great, we welcome contributions, just read this document beforehand.
 
 Where to contribute
 -------------------
@@ -18,7 +18,7 @@ Things to work on
 
 * Documentation
 
-Documentation of some packages is outdated/could use better wording. Any help is welcome.
+Documentation of some packages is outdated/incomplete/could use better wording. Any help is welcome.
 
 * Bugs
 
@@ -39,7 +39,7 @@ The basis of our coding standard is [PSR-12](https://www.php-fig.org/psr/psr-12/
 
 ### Test the code
 
-Do not forget to write tests for new features, we do not want untested code in the codebase. Also all tests for the merge request must pass. That includes syntax checks, compliance with coding standards, static analysis and unit/integration tests. We use parallel lint, codesniffer, PHPStan and Nette Tester + testbench (in most packages, some use PHPUnit or My Tester) respectively for these tasks. All these tools are run in CI but you can (and should) run them also on your computer before submitting a merge request. To make running the tools easier (and with same configuration), we use [phing](https://www.phing.info/), the target to run all the tools is called "test" in all packages.
+Do not forget to write tests for new features, we do not want untested code in the codebase. Also all tests for the merge request must pass. That includes syntax checks, compliance with coding standards, static analysis and unit/integration tests. We use parallel lint, codesniffer, PHPStan and Nette Tester + testbench (in most packages, some use PHPUnit or My Tester) respectively for these tasks. All these tools are run in CI, but you can (and should) run them also on your computer before submitting a merge request. To make running the tools easier (and with same configuration), we use [phing](https://www.phing.info/), the target to run all the tools is called "test" in all packages.
 
 ### Other rules
 
