@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "nette/command-line",
-            "version": "v1.9.1",
+            "version": "v1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/command-line.git",
-                "reference": "026b1005a64f5bf3c7f67a7566c3a78a05919a7a"
+                "reference": "42a6ea85f8b203ca1bd793327c526009c2525cc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/command-line/zipball/026b1005a64f5bf3c7f67a7566c3a78a05919a7a",
-                "reference": "026b1005a64f5bf3c7f67a7566c3a78a05919a7a",
+                "url": "https://api.github.com/repos/nette/command-line/zipball/42a6ea85f8b203ca1bd793327c526009c2525cc7",
+                "reference": "42a6ea85f8b203ca1bd793327c526009c2525cc7",
                 "shasum": ""
             },
             "require": {
@@ -69,22 +69,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/command-line/issues",
-                "source": "https://github.com/nette/command-line/tree/v1.9.1"
+                "source": "https://github.com/nette/command-line/tree/v1.9.2"
             },
-            "time": "2026-02-23T03:23:29+00:00"
+            "time": "2026-04-15T18:30:31+00:00"
         },
         {
             "name": "nette/neon",
-            "version": "v3.4.7",
+            "version": "v3.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/neon.git",
-                "reference": "cc96bf5264d721d0c102bb976272d3d001a23e65"
+                "reference": "9009f99ce1396b366a88ca16c90177148352b7d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/neon/zipball/cc96bf5264d721d0c102bb976272d3d001a23e65",
-                "reference": "cc96bf5264d721d0c102bb976272d3d001a23e65",
+                "url": "https://api.github.com/repos/nette/neon/zipball/9009f99ce1396b366a88ca16c90177148352b7d3",
+                "reference": "9009f99ce1396b366a88ca16c90177148352b7d3",
                 "shasum": ""
             },
             "require": {
@@ -140,22 +140,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/neon/issues",
-                "source": "https://github.com/nette/neon/tree/v3.4.7"
+                "source": "https://github.com/nette/neon/tree/v3.4.8"
             },
-            "time": "2026-01-04T08:39:50+00:00"
+            "time": "2026-05-11T21:34:00+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v4.1.3",
+            "version": "v4.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe"
+                "reference": "7da6c396d7ebe142bc857c20479d5e70a5e1aac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/bb3ea637e3d131d72acc033cfc2746ee893349fe",
-                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe",
+                "url": "https://api.github.com/repos/nette/utils/zipball/7da6c396d7ebe142bc857c20479d5e70a5e1aac7",
+                "reference": "7da6c396d7ebe142bc857c20479d5e70a5e1aac7",
                 "shasum": ""
             },
             "require": {
@@ -231,9 +231,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.1.3"
+                "source": "https://github.com/nette/utils/tree/v4.1.4"
             },
-            "time": "2026-02-13T03:05:33+00:00"
+            "time": "2026-05-11T20:49:54+00:00"
         },
         {
             "name": "nexendrie/site-generator",
@@ -241,12 +241,12 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/nexendrie/site-generator.git",
-                "reference": "69d2f2b3b9618db7814734e1861bb3243c0062ba"
+                "reference": "8a1a2e04d678efd27b2fea1726046e3f79c1ada3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=69d2f2b3b9618db7814734e1861bb3243c0062ba",
-                "reference": "69d2f2b3b9618db7814734e1861bb3243c0062ba",
+                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=8a1a2e04d678efd27b2fea1726046e3f79c1ada3",
+                "reference": "8a1a2e04d678efd27b2fea1726046e3f79c1ada3",
                 "shasum": ""
             },
             "require": {
@@ -254,7 +254,7 @@
                 "nette/command-line": "^1.7",
                 "nette/neon": "^3.4.1",
                 "nette/utils": "^4.0",
-                "php": ">=8.3.0",
+                "php": ">=8.4.0",
                 "symfony/options-resolver": "^6.0 || ^7.0 || ^8.0",
                 "xenocrat/chyrp-markdown": "^4.0"
             },
@@ -302,20 +302,20 @@
                 "issues": "https://gitlab.com/nexendrie/site-generator/-/issues",
                 "source": "https://gitlab.com/nexendrie/site-generator/-/tree/master"
             },
-            "time": "2026-03-21T20:52:46+00:00"
+            "time": "2026-06-19T21:04:14+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.6.0",
+            "version": "v3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
+                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
-                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/50f59d1f3ca46d41ac911f97a78626b6756af35b",
+                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.6-dev"
+                    "dev-main": "3.7-dev"
                 }
             },
             "autoload": {
@@ -353,7 +353,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.0"
             },
             "funding": [
                 {
@@ -365,28 +365,32 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:21:43+00:00"
+            "time": "2026-04-13T15:52:40+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v8.0.0",
+            "version": "v8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "d2b592535ffa6600c265a3893a7f7fd2bad82dd7"
+                "reference": "88f9c561f678a02d54b897014049fa839e33ff82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/d2b592535ffa6600c265a3893a7f7fd2bad82dd7",
-                "reference": "d2b592535ffa6600c265a3893a7f7fd2bad82dd7",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/88f9c561f678a02d54b897014049fa839e33ff82",
+                "reference": "88f9c561f678a02d54b897014049fa839e33ff82",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.4",
+                "php": ">=8.4.1",
                 "symfony/deprecation-contracts": "^2.5|^3"
             },
             "type": "library",
@@ -420,7 +424,7 @@
                 "options"
             ],
             "support": {
-                "source": "https://github.com/symfony/options-resolver/tree/v8.0.0"
+                "source": "https://github.com/symfony/options-resolver/tree/v8.1.0"
             },
             "funding": [
                 {
@@ -440,20 +444,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-12T15:55:31+00:00"
+            "time": "2026-05-29T05:06:50+00:00"
         },
         {
             "name": "xenocrat/chyrp-markdown",
-            "version": "v4.6",
+            "version": "v4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xenocrat/chyrp-markdown.git",
-                "reference": "3a5fae676e88d999f0ae91f702bc86f7db6ccbf2"
+                "reference": "b04521e669227e35759f534cf554b826cebaf20a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xenocrat/chyrp-markdown/zipball/3a5fae676e88d999f0ae91f702bc86f7db6ccbf2",
-                "reference": "3a5fae676e88d999f0ae91f702bc86f7db6ccbf2",
+                "url": "https://api.github.com/repos/xenocrat/chyrp-markdown/zipball/b04521e669227e35759f534cf554b826cebaf20a",
+                "reference": "b04521e669227e35759f534cf554b826cebaf20a",
                 "shasum": ""
             },
             "require": {
@@ -498,9 +502,9 @@
             ],
             "support": {
                 "issues": "https://github.com/xenocrat/chyrp-markdown/issues",
-                "source": "https://github.com/xenocrat/chyrp-markdown/tree/v4.6"
+                "source": "https://github.com/xenocrat/chyrp-markdown/tree/v4.14"
             },
-            "time": "2026-03-13T08:11:21+00:00"
+            "time": "2026-05-30T09:53:18+00:00"
         }
     ],
     "packages-dev": [],
