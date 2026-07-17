@@ -11,12 +11,12 @@ Along the way, some reusable parts were separated from the main repository into 
 Repositories
 ------------
 
-All the project's repositories are hosted on both [GitHub](https://github.com/nexendrie) and [GitLab](https://gitlab.com/nexendrie/). All development takes place on GitLab (all issues and pull/merge should be created there). The repositories on GitHub are just mirrors.
+All the project's repositories are hosted on both [GitHub](https://github.com/nexendrie) and [GitLab](https://gitlab.com/nexendrie/). All development takes place on GitLab (all issues and pull/merge requests should be created there). The repositories on GitHub are just mirrors.
 
 Used stuff
 ----------
 
-Our primary programming language is PHP. Our packages except testbench use version 8.1/8.3. Our projects are powered by [Nette Framework](https://nette.org). We heavily test our code and also run codesniffer, parallel lint and phpstan on our codebase in CI to ensure its quality.
+Our primary programming language is PHP. Our packages use version 8.3, except testbench (which officially supports only 7.4) and site-generator (which requires 8.4 or later). Our projects are powered by [Nette Framework](https://nette.org) but we also use some [Symfony](https://symfony.com) components. We heavily test our code and also run codesniffer, parallel lint and phpstan on our codebase in CI to ensure its quality.
 
 Contributing
 ------------
