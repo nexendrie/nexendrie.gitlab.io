@@ -241,25 +241,27 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/nexendrie/site-generator.git",
-                "reference": "8a1a2e04d678efd27b2fea1726046e3f79c1ada3"
+                "reference": "c4d13c7c16c1486a0be06d7c6dd31f45c2059506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=8a1a2e04d678efd27b2fea1726046e3f79c1ada3",
-                "reference": "8a1a2e04d678efd27b2fea1726046e3f79c1ada3",
+                "url": "https://gitlab.com/api/v4/projects/nexendrie%2Fsite-generator/repository/archive.zip?sha=c4d13c7c16c1486a0be06d7c6dd31f45c2059506",
+                "reference": "c4d13c7c16c1486a0be06d7c6dd31f45c2059506",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "nette/command-line": "^1.7",
+                "nette/command-line": "^1.9",
                 "nette/neon": "^3.4.1",
                 "nette/utils": "^4.0",
                 "php": ">=8.4.0",
+                "psr/event-dispatcher": "^1.0",
                 "symfony/options-resolver": "^6.0 || ^7.0 || ^8.0",
                 "xenocrat/chyrp-markdown": "^4.0"
             },
             "require-dev": {
-                "nexendrie/code-quality": "dev-mytester"
+                "nexendrie/code-quality": "dev-mytester",
+                "psr/log": "^3.0"
             },
             "default-branch": true,
             "bin": [
@@ -302,20 +304,70 @@
                 "issues": "https://gitlab.com/nexendrie/site-generator/-/issues",
                 "source": "https://gitlab.com/nexendrie/site-generator/-/tree/master"
             },
-            "time": "2026-06-19T21:04:14+00:00"
+            "time": "2026-07-17T14:42:55+00:00"
         },
         {
-            "name": "symfony/deprecation-contracts",
-            "version": "v3.7.0",
+            "name": "psr/event-dispatcher",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b"
+                "url": "https://github.com/php-fig/event-dispatcher.git",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/50f59d1f3ca46d41ac911f97a78626b6756af35b",
-                "reference": "50f59d1f3ca46d41ac911f97a78626b6756af35b",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\EventDispatcher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Standard interfaces for event handling.",
+            "keywords": [
+                "events",
+                "psr",
+                "psr-14"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/event-dispatcher/issues",
+                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
+            },
+            "time": "2019-01-08T18:20:26+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v3.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/f3202fa1b5097b0af062dc978b32ecf63404e31d",
+                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d",
                 "shasum": ""
             },
             "require": {
@@ -353,7 +405,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.1"
             },
             "funding": [
                 {
@@ -373,7 +425,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-13T15:52:40+00:00"
+            "time": "2026-06-05T06:23:12+00:00"
         },
         {
             "name": "symfony/options-resolver",
@@ -448,16 +500,16 @@
         },
         {
             "name": "xenocrat/chyrp-markdown",
-            "version": "v4.14",
+            "version": "v4.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xenocrat/chyrp-markdown.git",
-                "reference": "b04521e669227e35759f534cf554b826cebaf20a"
+                "reference": "c8051ce2744ad258f46e49a1f24c70e2ae9a7ac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xenocrat/chyrp-markdown/zipball/b04521e669227e35759f534cf554b826cebaf20a",
-                "reference": "b04521e669227e35759f534cf554b826cebaf20a",
+                "url": "https://api.github.com/repos/xenocrat/chyrp-markdown/zipball/c8051ce2744ad258f46e49a1f24c70e2ae9a7ac0",
+                "reference": "c8051ce2744ad258f46e49a1f24c70e2ae9a7ac0",
                 "shasum": ""
             },
             "require": {
@@ -502,9 +554,9 @@
             ],
             "support": {
                 "issues": "https://github.com/xenocrat/chyrp-markdown/issues",
-                "source": "https://github.com/xenocrat/chyrp-markdown/tree/v4.14"
+                "source": "https://github.com/xenocrat/chyrp-markdown/tree/v4.16.1"
             },
-            "time": "2026-05-30T09:53:18+00:00"
+            "time": "2026-07-13T19:25:15+00:00"
         }
     ],
     "packages-dev": [],
